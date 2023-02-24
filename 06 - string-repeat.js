@@ -6,7 +6,12 @@
 // stringRepeat(4, 'Candle') --> 'CandleCandleCandleCandle'
 
 function stringRepeat(number, string) {
-    // Write your code here
+    let repeatedString = '';
+    for (let i = number; i < 0; i--) {
+        repeatedString += string
+    }
+
+    return repeatedString;
 }
 
 // DO NOT TOUCH TESTS BELOW

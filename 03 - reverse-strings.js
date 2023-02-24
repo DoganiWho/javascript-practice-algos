@@ -5,7 +5,11 @@
 // 2. 'word'   =>  'drow'
 
 function reverseString(string) {
-    // Write your code here
+    let reversed = '';
+    for (let i = 0; i < string.length; i++) {
+      reversed.shift(string[i])      
+    }
+    return reversed;    
 }
 
 

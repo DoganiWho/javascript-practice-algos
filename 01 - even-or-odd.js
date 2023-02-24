@@ -3,7 +3,7 @@
 
 
 function evenOrOdd(number) {
-    // write your code here
+   number % 2 === 0 ? 'Even': 'Odd';
 }
 
 // DO NOT TOUCH TESTS BELOW

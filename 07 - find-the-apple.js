@@ -5,7 +5,8 @@
 // returns 2
 
 function findTheApple(fruits) {
-    // Write the code here
+    let appleIndex = fruits.indexOf('Apple')
+    return appleIndex
 }
 
 

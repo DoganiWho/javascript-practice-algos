@@ -5,7 +5,14 @@
 
 
 function sumOfPositives(numbers) {
-    // Write your code here
+    let positiveSum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > 0) {
+            positiveSum += numbers[i];
+        }
+    }
+
+    return positiveSum;
 }
 
 

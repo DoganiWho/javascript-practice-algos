@@ -6,7 +6,13 @@
 
 
 function countPositivesSumNegatives(numbersArray) {
-    // your code here
+    let positiveNumberSum = 0;
+    let negativeNumberSum = 0;
+
+    for (let i = 0; i < numbersArray.length; i++) {
+        numbersArray[i] > 0 ? positiveNumberSum += numbersArray[i] : negativeNumberSum += numbersArray[i];
+    }
+    return [positiveNumberSum, negativeNumberSum];
 }
 
 

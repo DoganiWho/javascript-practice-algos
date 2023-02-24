@@ -4,7 +4,9 @@
 // e.g. 'hello' --> 'ell'
 
 function wordFormatter(word) {
-    // Write your code here
+    word.shift();
+    word.pop();
+    return  word;
 }
 
 // DO NOT TOUCH TESTS BELOW

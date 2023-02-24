@@ -4,7 +4,8 @@
 // e.g. elephant --> 3
 
 function vowelCount(string) {
-    // Write your code here
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    //iterate through the string and count the number of vowels.
 }
 
 // DO NOT TOUCH TESTS BELOW
