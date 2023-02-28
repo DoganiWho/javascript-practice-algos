@@ -5,12 +5,15 @@
 // 2. 'word'   =>  'drow'
 
 function reverseString(string) {
-    let reversed = '';
-    for (let i = 0; i < string.length; i++) {
-      reversed.shift(string[i])      
+  const word = string
+  let reversed = ''
+    for (let i = word.length -1; i >= 0; i--) {
+      reversed += word[i];
     }
-    return reversed;    
+  return reversed
 }
+
+
 
 
 // DO NOT TOUCH TESTS BELOW

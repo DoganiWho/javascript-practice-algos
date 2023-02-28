@@ -4,8 +4,7 @@
 // e.g. 'hello' --> 'ell'
 
 function wordFormatter(word) {
-    word.shift();
-    word.pop();
+    word.remove(word[0], word[word.length]);
     return  word;
 }
 

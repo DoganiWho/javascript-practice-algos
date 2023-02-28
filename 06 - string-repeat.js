@@ -7,7 +7,7 @@
 
 function stringRepeat(number, string) {
     let repeatedString = '';
-    for (let i = number; i < 0; i--) {
+    for (let i = number; i > 0; i--) {
         repeatedString += string
     }
 
