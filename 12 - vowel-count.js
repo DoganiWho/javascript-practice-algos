@@ -3,10 +3,21 @@
 // The vowels counted will be a,e,i,o,u
 // e.g. elephant --> 3
 
-function vowelCount(string) {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    //iterate through the string and count the number of vowels.
+const VOWELS = ["a", "e", "i", "o", "u"];
+
+
+const vowelCount = (string) => {
+ let vowelCounter = 0;
+ for (var i = 0; i < string.length; i++) {
+  for (var j = 0; j < VOWELS.length; j++) {
+   if (string[i] === VOWELS[j]) {
+    vowelCounter++
+   }
+  }
+ }
+ return vowelCounter
 }
+
 
 // DO NOT TOUCH TESTS BELOW
 console.log(vowelCount('elephant') === 3 ? '✅ 01 - Test Passed' : '❌ 01 - Test Failed')
