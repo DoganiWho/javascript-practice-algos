@@ -4,11 +4,11 @@
 // e.g. 'hello' --> 'ell'
 
 function wordFormatter(word) {
- let trimmedWord = "";
- for (var i = 1; i < word.length - 1; i++) {
-  trimmedWord += word[i];
- }
- return trimmedWord
+    let trimmedWord = "";
+    for (var i = 1; i < word.length - 1; i++) {
+        trimmedWord += word[i];
+    }
+    return trimmedWord
 }
 
 // DO NOT TOUCH TESTS BELOW

@@ -6,8 +6,15 @@
 
 function findTheApple(fruits) {
     let appleIndex = fruits.indexOf('Apple')
+    if (appleIndex < 0) return "Apple not found" // to check if 'Apple' even exists
     return appleIndex
 }
+
+
+console.log(
+    findTheApple(['Peach', 'Banana', 'Grape'])  === "Apple not found" ?
+    '✅ 01 - Test Passed' : '❌ 01 - Test Failed'
+);
 
 
 // DO NOT TOUCH TESTS BELOW
